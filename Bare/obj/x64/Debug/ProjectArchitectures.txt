@@ -1,0 +1,1 @@
+C:\Users\samue\Documents\GitHub\BareKit\Bare\Bare.csproj;x64
