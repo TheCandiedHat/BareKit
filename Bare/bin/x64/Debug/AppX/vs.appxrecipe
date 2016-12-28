@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-SIP0BTV</Machine>
+    <Machine>WINDOWSVM</Machine>
     <WindowsUser>samue</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-26T13:38:50.102</Modified>
+      <Modified>2016-12-27T18:52:00.150</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\bin\x64\Debug\Bare.exe">
       <PackagePath>entrypoint\Bare.exe</PackagePath>
-      <Modified>2016-12-26T13:38:49.758</Modified>
+      <Modified>2016-12-27T18:51:59.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -522,45 +522,45 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-12-26T13:23:44.157</Modified>
+      <Modified>2016-12-26T13:49:45.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-12-22T11:48:42.861</Modified>
+      <Modified>2016-12-26T13:49:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.908</Modified>
+      <Modified>2016-12-26T13:49:45.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.908</Modified>
+      <Modified>2016-12-26T13:49:45.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.908</Modified>
+      <Modified>2016-12-26T13:49:45.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.908</Modified>
+      <Modified>2016-12-26T13:49:45.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.940</Modified>
+      <Modified>2016-12-26T13:49:45.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-22T11:48:42.940</Modified>
+      <Modified>2016-12-26T13:49:45.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\bin\x64\Debug\Bare.xr.xml">
       <PackagePath>Bare.xr.xml</PackagePath>
-      <Modified>2016-12-26T13:31:02.825</Modified>
+      <Modified>2016-12-26T13:49:51.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -569,11 +569,11 @@
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-26T13:31:03.847</Modified>
+      <Modified>2016-12-27T18:44:28.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Documents\GitHub\BareKit\Bare\bin\x64\Debug\Core\Bare.exe">
       <PackagePath>Bare.exe</PackagePath>
-      <Modified>2016-12-26T13:38:50.097</Modified>
+      <Modified>2016-12-27T18:52:00.147</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

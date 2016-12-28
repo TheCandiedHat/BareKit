@@ -12,7 +12,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Entrypoint.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Graphics\Container.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Graphics\Drawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Page.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Graphics\ScalingManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Stage.cs" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />

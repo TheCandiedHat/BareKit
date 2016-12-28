@@ -12,7 +12,7 @@ namespace BareKit.Graphics
         Vector2 scale;
         Vector2 origin;
 
-        Drawable parent;
+        Container parent;
 
         public Drawable(ScalingManager scaling)
         {
@@ -24,9 +24,14 @@ namespace BareKit.Graphics
             origin = new Vector2(0);
         }
 
+        public virtual void Update(GameTime delta)
+        {
+            // TODO: Logic code goes here ...
+        }
+
         public virtual void Draw(SpriteBatch buffer)
         {
-            // TODO: Insert drawing code here
+            // TODO: Drawing code goes here ...
         }
 
         protected ScalingManager Scaling
@@ -94,12 +99,12 @@ namespace BareKit.Graphics
             set { origin.Y = value; }
         }
 
-        public Drawable Parent
+        public Container Parent
         {
             get { return parent; }
             set
             {
-                if (value == null || (value.GetType() == typeof(Container) && ((Container)value).Children.Contains(this)))
+                if (value == null || value.Children.Contains(this))
                     parent = value;
             }
         }

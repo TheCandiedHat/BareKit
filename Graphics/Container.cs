@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace BareKit.Graphics
@@ -11,6 +12,14 @@ namespace BareKit.Graphics
         public Container(ScalingManager scaling) : base(scaling)
         {
             drawables = new List<Drawable>();
+        }
+
+        public override void Update(GameTime delta)
+        {
+            base.Update(delta);
+
+            foreach (Drawable drawable in drawables)
+                drawable.Update(delta);
         }
 
         public override void Draw(SpriteBatch buffer)
